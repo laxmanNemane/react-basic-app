@@ -1,3 +1,169 @@
+/* sidebar
+logo color white/40px/600
+icons/text / 22px/500/#F6FFFF
+*/
+
+/* chat recent section
+bg-#F5F5F5
+chat heading  30px/500/c=primary
+serchbar placeholder 24px/500/bg-#E5EBF6
+portal / border-1px 
+recent heading 25/500/primary
+item active-bg(#E5EBF6)
+itemheaindg-25/500/
+itemsubheadig-20px/500/#9BA0B6 iftyped color #8B83F7
+item-time-20px/#9BA0B6/
+message-tag 20px/#FD7FA4/bg-#FBD7E2
+online status #59E6BE border3px/white
+
+*/
+
+/* chat feed section
+bg-#F6F8FC
+username-25px
+nolinestattus - #AEB3C2/24px
+days 24px/400/#585A5C
+sender bg-#D4E6FF/24messages
+*/
+
+/* 
+media section
+
+username 24px 500
+subheading 24px/#AEB3C2
+media files link 35px/600/primayr
+media-headings 32px/500
+see=all 26px/500px/#E34A4A
+properties-number 28px/white
+linke-title 28px/500
+link 24px/500/#9BA0B6
+
+
+*/
+
+/* 
+Typography 
+in px
+40 /22   ||  30/24/25/25/20/20/20  || 25/24/25/24 || 24/24/35/32/26/28/28/24
+
+*/
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: 400;
+}
+
+a,
+NavLink {
+  text-decoration: none;
+}
+
+html {
+  /* font-size: 15px; */
+  /* 15/16=93.75 */
+  /* font-size: 93.75%; 15px */
+  overflow-x: hidden;
+}
+
 body {
-  background-color: gray;
+  font-family: "Roboto", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+}
+
+/* ------------------------------------------------------------------ */
+/* ======================== font Sizes ============================== */
+/* ------------------------------------------------------------------ */
+
+.heading {
+  font-size: 30px;
+  letter-spacing: 0.4px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.subheading {
+  font-size: 25px;
+  line-height: 1.3;
+  font-weight: 500;
+}
+
+.paragraph {
+  font-size: 20px;
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+/* ------------------------------------------------------------------ */
+/* ======================== Background colors============================= */
+/* ------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------------ */
+/* ======================== typogrphy colors============================== */
+/* ------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------------ */
+/* ======================== font wight============================== */
+/* ------------------------------------------------------------------ */
+
+/*============================== buttons ===========================*/
+.common-btn {
+  /* this is custom common button for whole application */
+  padding: 8px 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* this primary button */
+.first-btn {
+  /* you can add you own color for this */
+  background-color: #4263eb;
+  border: 1px solid #4263eb;
+  color: white;
+}
+
+.first-btn:hover {
+  background-color: #4c6ef5;
+  border: 1px solid #4c6ef5;
+}
+
+/* Secondary button */
+
+.second-btn {
+  /* you can add you own color for this */
+  background-color: #f76707;
+  border: 1px solid #f76707;
+  color: white;
+}
+
+.second-btn:hover {
+  background-color: #fd7e14;
+  border: 1px solid #fd7e14;
+}
+
+/* hr-divider */
+.divider-hr {
+  width: 100%;
+  height: 1px;
+  margin: 2px 0;
+  opacity: 8;
+  background-color: black;
+}
+
+.divider-vr {
+  width: 1px;
+  height: 20px;
+  margin: 2px 0;
+  opacity: 8;
+  background-color: black;
 }

@@ -1,7 +1,7 @@
 import React from "react";
 
 const Index = () => {
-  return <div>Header main file</div>;
+  return <div>Dashbod Activity</div>;
 };
 
 export default Index;
