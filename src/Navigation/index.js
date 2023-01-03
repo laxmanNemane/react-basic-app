@@ -12,6 +12,7 @@ const index = () => {
           <Route path="/signup" element={"sign upp Page"} />
           <Route path="/dashbord" element={" dashbord page"} />
           <Route path="/contact-us" element={"Home Page"} />
+          <Route path="/yup" element={"Yup page"} />
         </Route>
       </Routes>
     </BrowserRouter>
